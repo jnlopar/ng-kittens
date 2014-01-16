@@ -17,7 +17,7 @@ kittens.factory('kittenUrls', function() {
 
       var baseUrl = 'http://placekitten.com/';
 
-      if (mono) {
+      if (mono == 'true' || mono == '1') {
         baseUrl += 'g/';
       }
 
