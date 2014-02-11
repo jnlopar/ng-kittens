@@ -3,6 +3,8 @@ ng-kittens
 
 Angular directive for semi-random kitten placeholder images from placekitten.com
 
+[Live demo](http://jnlopar.github.io/ng-kittens)
+
 Usage:
 
     <kitten
