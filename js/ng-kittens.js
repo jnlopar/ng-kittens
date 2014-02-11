@@ -30,14 +30,14 @@ kittens.directive('kitten', ['kittenUrls', function(kittenUrls) {
   return {
     restrict: 'E',
     scope: {width: '@', height: '@', mono: '@'},
-    link: function(scope) {
-      var kittenUrl = kittenUrls.getUrl(scope.width, scope.height, scope.mono);
+    link: function(scope, elem, attrs) {
+      var kittenUrl = kittenUrls.getUrl(attrs.width, attrs.height, attrs.mono);
 
       scope.style = {
           'background-image': 'url(' + kittenUrl + ')',
           'background-position': 'center',
-          width: scope.width + 'px',
-          height: scope.height + 'px'}
+          width: attrs.width + 'px',
+          height: attrs.height + 'px'}
       },
     templateUrl: 'templates/ng-kittens.html'
   }
