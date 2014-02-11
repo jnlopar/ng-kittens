@@ -1,4 +1,31 @@
+* {
+  font-family: 'Roboto';
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
 .header {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 25px;
+  background-color: #fff0bb;
+}
+
+.header h1 {
+  color: #333366;
+}
+
+a {
+  color: #cc7700;
+  text-decoration: none;
+  border-bottom: 1px #ff9900 dashed;
+}
+
+.wrapped-content {
   float: right;
 }
 
