@@ -1,7 +1,7 @@
 ng-kittens
 ==========
 
-Angular directive for semi-random kitten placeholder images from placekitten.com
+Angular directive for semi-random kitten placeholder images from [placekitten](http://placekitten.com)
 
 [Live demo](http://jnlopar.github.io/ng-kittens)
 
